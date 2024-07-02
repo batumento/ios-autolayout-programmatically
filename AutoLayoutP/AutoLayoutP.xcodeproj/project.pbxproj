@@ -20,6 +20,8 @@
 		5ABE84192BFB2F150005EF4C /* SafeLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE84182BFB2F150005EF4C /* SafeLayoutVC.swift */; };
 		5AD4CDE42C32FAC30009D68B /* ProgressRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD4CDE32C32FAC30009D68B /* ProgressRow.swift */; };
 		5AE587202C341ADB00257E21 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5871F2C341ADB00257E21 /* PlayerView.swift */; };
+		5AE587242C342B5400257E21 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE587222C342B5400257E21 /* screenshot2.png */; };
+		5AE587252C342B5400257E21 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE587232C342B5400257E21 /* screenshot1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		5ABE84182BFB2F150005EF4C /* SafeLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeLayoutVC.swift; sourceTree = "<group>"; };
 		5AD4CDE32C32FAC30009D68B /* ProgressRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRow.swift; sourceTree = "<group>"; };
 		5AE5871F2C341ADB00257E21 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		5AE587222C342B5400257E21 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		5AE587232C342B5400257E21 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		5A2183202BF909E500D03A21 /* AutoLayoutP */ = {
 			isa = PBXGroup;
 			children = (
+				5AE587212C342B3400257E21 /* Images */,
 				5A21832A2BF909E600D03A21 /* Assets.xcassets */,
 				5A21832F2BF909E600D03A21 /* Info.plist */,
 				5A2183212BF909E500D03A21 /* AppDelegate.swift */,
@@ -104,6 +109,15 @@
 				5A2EA5BC2C0DA50B0024CD28 /* CompressionResistanceVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AE587212C342B3400257E21 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5AE587232C342B5400257E21 /* screenshot1.png */,
+				5AE587222C342B5400257E21 /* screenshot2.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE587242C342B5400257E21 /* screenshot2.png in Resources */,
 				5A21832B2BF909E600D03A21 /* Assets.xcassets in Resources */,
+				5AE587252C342B5400257E21 /* screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
