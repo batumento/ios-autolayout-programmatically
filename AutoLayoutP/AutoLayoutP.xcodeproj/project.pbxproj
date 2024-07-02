@@ -18,6 +18,8 @@
 		5AB8726F2C29A3E400FB8C2A /* PlaybackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB8726E2C29A3E400FB8C2A /* PlaybackVC.swift */; };
 		5AB872712C29A4B000FB8C2A /* PlaybackFactoryFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB872702C29A4B000FB8C2A /* PlaybackFactoryFuncs.swift */; };
 		5ABE84192BFB2F150005EF4C /* SafeLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE84182BFB2F150005EF4C /* SafeLayoutVC.swift */; };
+		5AD4CDE42C32FAC30009D68B /* ProgressRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD4CDE32C32FAC30009D68B /* ProgressRow.swift */; };
+		5AE587202C341ADB00257E21 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5871F2C341ADB00257E21 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		5AB8726E2C29A3E400FB8C2A /* PlaybackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackVC.swift; sourceTree = "<group>"; };
 		5AB872702C29A4B000FB8C2A /* PlaybackFactoryFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackFactoryFuncs.swift; sourceTree = "<group>"; };
 		5ABE84182BFB2F150005EF4C /* SafeLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeLayoutVC.swift; sourceTree = "<group>"; };
+		5AD4CDE32C32FAC30009D68B /* ProgressRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRow.swift; sourceTree = "<group>"; };
+		5AE5871F2C341ADB00257E21 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +71,14 @@
 		5A2183202BF909E500D03A21 /* AutoLayoutP */ = {
 			isa = PBXGroup;
 			children = (
-				5A8C6CA12C2716A000EE3C9F /* SpotifyPlayer */,
-				5A21832F2BF909E600D03A21 /* Info.plist */,
-				5ABE841A2BFB2F930005EF4C /* Controller */,
-				5A2183212BF909E500D03A21 /* AppDelegate.swift */,
 				5A21832A2BF909E600D03A21 /* Assets.xcassets */,
+				5A21832F2BF909E600D03A21 /* Info.plist */,
+				5A2183212BF909E500D03A21 /* AppDelegate.swift */,
+				5ABE841A2BFB2F930005EF4C /* Controller */,
+				5A8C6CA12C2716A000EE3C9F /* SpotifyPlayer */,
+				5A8C6CA42C2716D800EE3C9F /* SpotiPlayerVC.swift */,
+				5AD4CDE32C32FAC30009D68B /* ProgressRow.swift */,
+				5AE5871F2C341ADB00257E21 /* PlayerView.swift */,
 			);
 			path = AutoLayoutP;
 			sourceTree = "<group>";
@@ -80,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				5A8C6CA22C2716B400EE3C9F /* FactoryFunctions.swift */,
-				5A8C6CA42C2716D800EE3C9F /* SpotiPlayerVC.swift */,
 				5AB8726C2C29A1E300FB8C2A /* RowView.swift */,
 				5AB8726E2C29A3E400FB8C2A /* PlaybackVC.swift */,
 				5AB872702C29A4B000FB8C2A /* PlaybackFactoryFuncs.swift */,
@@ -169,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD4CDE42C32FAC30009D68B /* ProgressRow.swift in Sources */,
 				5A2183262BF909E500D03A21 /* ViewController.swift in Sources */,
 				5AB8726F2C29A3E400FB8C2A /* PlaybackVC.swift in Sources */,
+				5AE587202C341ADB00257E21 /* PlayerView.swift in Sources */,
 				5A2183222BF909E500D03A21 /* AppDelegate.swift in Sources */,
 				5AB872712C29A4B000FB8C2A /* PlaybackFactoryFuncs.swift in Sources */,
 				5A8C6CA32C2716B400EE3C9F /* FactoryFunctions.swift in Sources */,
