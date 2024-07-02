@@ -24,5 +24,5 @@ In this project, I'm working on a practical project where I learn how to do Auto
 <p align="center">
   <img src="Images/screenshot1.png" alt="Screenshot 1" width="200"/>
  <p align="center">
-  <img src="Images/screenshot2.png" alt="Screenshot 2" width="350"/> </p>
+  <img src="Images/screenshot2.png" alt="Screenshot 2" width="450"/> </p>
 </p>
