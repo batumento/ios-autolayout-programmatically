@@ -15,7 +15,7 @@ class SpotiPlayerVC: UIViewController {
     init() {
         stackView = makeStackView(withOrientation: .vertical)
         playerView = PlayerView()
-
+        playerView.adjustForOrientiation()
         super.init(nibName: nil, bundle: nil)
     }
 
