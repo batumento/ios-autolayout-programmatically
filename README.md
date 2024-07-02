@@ -22,7 +22,7 @@ In this project, I'm working on a practical project where I learn how to do Auto
 - Scroll Views
 
 <p align="center">
-  <img src="Images/screenshot1.png" alt="Screenshot 1" width="250"/>
+  <img src="Images/screenshot1.png" alt="Screenshot 1" width="220"/>
  <p align="center">
   <img src="Images/screenshot2.png" alt="Screenshot 2" width="450"/> </p>
 </p>
