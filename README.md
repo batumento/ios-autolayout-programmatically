@@ -22,6 +22,6 @@ In this project, I'm working on a practical project where I learn how to do Auto
 - Scroll Views
 
 <p align="center">
-  <img src="Images/screenshot1.png" alt="Screenshot 1" style="max-width: 100%; max-height: 400px; width: auto; height: auto;"/>
-  <img src="Images/screenshot2.png" alt="Screenshot 2" style="max-width: 100%; max-height: 400px; width: auto; height: auto;"/>
+  <img src="Images/screenshot1.png" alt="Screenshot 1"/>
+  <img src="Images/screenshot2.png" alt="Screenshot 2"/>
 </p>
